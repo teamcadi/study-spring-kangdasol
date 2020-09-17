@@ -1,13 +1,11 @@
 package Spring.service;
 
-import Spring.domain.Member;
-import Spring.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
+import Spring.hellospring.domain.Member;
+import Spring.hellospring.repository.MemoryMemberRepository;
+import Spring.hellospring.service.MemberService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
